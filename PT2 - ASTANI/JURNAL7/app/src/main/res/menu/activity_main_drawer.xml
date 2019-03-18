@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_beranda"
+            android:icon="@mipmap/ic_beranda"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@mipmap/ic_profil"
+            android:title="Profil" />
+        <item
+            android:id="@+id/nav_forum"
+            android:icon="@mipmap/ic_forum"
+            android:title="Forum" />
+        <item
+            android:id="@+id/nav_artikel"
+            android:icon="@mipmap/ic_artikel"
+            android:title="Artikel" />
+        <item
+            android:id="@+id/nav_toko"
+            android:icon="@mipmap/ic_toko"
+            android:title="Toko" />
+    </group>
+
+    <item android:title="Pengaturan">
+        <menu>
+            <item
+                android:id="@+id/nav_informasi"
+                android:icon="@mipmap/ic_info"
+                android:title="Informasi" />
+
+            <item
+                android:id="@+id/nav_setelan"
+                android:icon="@mipmap/ic_setelan"
+                android:title="Setelan" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@mipmap/ic_help"
+                android:title="Bantuan" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@mipmap/ic_exit"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>
